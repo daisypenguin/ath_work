@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Analyttica Treasure Hunt</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="Skaipal Logo s.png"/>
+
+    <!-- CSS
+    ================================================== -->       
+    <!-- Bootstrap css file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet"> 
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css">  
+    <!-- Elastic grid css file -->
+    <link rel="stylesheet" href="css/elastic_grid.css"> 
+    <!-- Circle counter cdn css file -->
+      
+    <!-- JQuery css fil -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">  
+	
+    <!-- Default Theme css file -->
+    <link id="orginal" href="css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="style.css" rel="stylesheet">
+   
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	
+	<style>
+
+        #header{
+            margin-bottom: 5px;
+        }
+        #footer{
+            margin-top: 50px;
+        }
+        
+        #accordion{
+            clear: both;
+        }
+        
+        .title{
+            text-align: left;
+        }
+        
+        #mod{
+            margin-top: 20px;
+            padding: 20px 20px;
+            width: 200px;
+            background-color: white;
+            border: #C82E5A 1px solid;
+            color: black;
+            border-radius: 15px;
+            font-size: 20px;
+            transition: background-color 0.5s, color 0.5s;
+            outline: 0;
+        }
+        
+        #mod:hover{
+            background-color: rgb(200, 46, 90);
+            color: white;
+        
+        }
+        
+        #mod, input[type=submit]:active{
+            transform: translateY(5px);
+        }
+        
+        .modal-content{
+            width: 75%;
+            margin: auto;
+        }
+        input, select, textarea{
+            width: 68%;
+            border-radius: 5px;
+            height: 30px;
+            margin: 10px;
+            outline: none;
+            border: 1px solid rgb(200, 46, 90);
+            padding: 5px;
+        }
+        
+
+        input[type=submit]{
+            height: 40px;
+            width: 40%;
+            margin: 10px 30%;
+            border-style: none;
+            background-color: darkred;
+            color: white;
+            font-size: 20px;
+        }
+        
+        label{
+            font-size: 15px;
+            width: 85px;
+        }
+        
+        label[for=msg]{
+            position: relative;
+            bottom: 50px;
+        }
+
+    </style>
+      
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+        
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      
+  </head>
+  <body> 
+     
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+          <div class="container">
+          <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			  <!-- TEXT BASED LOGO -->
+            <a href="index.html" ><img src="Skaipal Logo s.png" class="logo" align="left"  style="max-width:100px; margin-top: -7px;" alt="img"></a>
+          </div>
+
+          
+			
+			<!--NAVIGATION BAR-->
+          
+		  <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+              <li class="active"><a href="index.html">Home </a></li>
+              <li><a href="index.html#about">About Us </a></li>
+              <li><a href="index.html#solutions">Solutions </a></li> 
+		<li><a href="ourteam.html">Team </a></li>
+                <li><a href="ath.html">ATH </a></li>
+              <li><a href="index.html#knowledge">Knowledge </a></li>
+              <li><a href="index.html#contact">Contact Us </a></li>                           
+            </ul>           
+          </div><!--/.nav-collapse -->
+          </div>     
+        </nav>  
+      </div>
+      <!-- END MENU -->
+        
+        
+        
+        
+		<div class="container padding-top">
+		<div class="col-md-12 col-sm-8 col-xs-min-12">
+				<br><br>
+				<div class="heading">
+              <h2 class="wow fadeInLeftBig"><b>Analyttica Treasure Hunt </b></h2>            
+                </div>
+                
+            <center>
+                <div class="row">
+                    <div class="col-md-10">
+                        <div>
+                        <img src="ATH.jpg" alt="image not loaded" border=3>
+                            <p> 
+                            
+                            Analyttica Treasure Hunt is a powerful and advanced Data Analytics Platform with an efficient learning environment. Here you get to work on real data created by industry experts. This is a golden opportunity to learn and solve practical challenges. It would benefit you by giving you a grasp of topics and subjects pertaining to Data Science and Analytics that will make you understand things better and quicker by getting familiar with the subject.</p>
+                            <hr />
+                            
+                            <h3 style="float: left"> Some of the courses we offer</h3>
+                        </div>
+                        
+
+                        
+                        <div id="accordion">
+                            <h1 class="title">Fundamentals of Data Analytics</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Data Analytics is rapidly becoming one of the most critical drivers for any decision-making, at an individual or a business level. At the heart of Data analytics, lies the fundamentals of statistics. This course will help you learn basic statistical concepts with practical problem solving and interpretation through application of the theoretical learnings. The course has been divided into 3 modules with Simulations, Quizzes and Solve within each of those.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>Learn fundamental statistical concepts, that are widely applicable in data analytics through course lessons and solving business cases. Apply the knowledge gained to solve business problems through simulations using real data, validate your knowledge by answering quiz questions under each module and finally test your understanding by solving real problems under the Solve section. At the end of this course, you should be able to understand data type and their representation, apply descriptive statistical measures to interpret data and make statistical inferences based on the data distribution and use of appropriate statistical tests.</p>
+    
+                            </div>
+                            
+                            <h1 class="title">Data Mining Concepts and Techniques</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Structured in several modules covering a couple of  business cases and exercises, the learner gets the opportunities of hands-on applications of all the data mining methodologies widely applicable in the industry covering below.
+                                </p>
+                                <ul style="text-align: left; list-style-type: disc; margin-left: 20px">
+                                    <li>Data preparation and sampling</li>
+                                    <li>Data quality assessment and necessary treatment</li>
+                                    <li>Data transformation and feature extraction</li>
+                                    <li>Dimensionality reduction</li>     
+                                </ul>
+                                <p><br />After completing this course, one will get a profound understanding of all the stages of data preparations required for application of analytical methodologies to address real business challenges.</p>
+
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>This course is planned to equip a learner with all the necessary concepts, techniques, approaches, and data mining skills required  by a data scientist prior to the application of predictive and prescriptive analytics. It imparts the CRISP DM methodologies and it's significance across different phases of data-mining.</p>
+                            </div>
+                            
+                            <h1 class="title">Mining Text Data - Cleansing, Treatment, Structural Representation & Visualization</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Text mining & analytics is one of the fastest-growing applied streams in the analytics industry. In real business scenarios, the text data, in majority of the cases is unstructured, not cleansed, and not treated. Hence, the unstructured text data is not in a shape to use for any kind of insight generation, business analytics application, or leverage for decision support (predictive or prescriptive). It is of utmost importance to prepare the data prior to any kind of text analytics.
+                                </p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>This course is designed to equip a learner with all the necessary concepts and skills required to mine, explore, cleanse, and prepare unstructured text data and make it ready for analyses.</p>
+                                
+                            </div>
+                            
+                            <h1 class="title">Sentiment Analysis - Using Unstructured Text Data</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>"Text Analytics" is one of the fastest-growing applied streams in the analytics industry. This course helps in understanding the basic concepts of comparative analysis using distance metrics, and sentiment analysis, using a vocabulary method. The first module of this course focuses on comparative analysis of text documents to rate and review unstructured text from two different sources. This module covers the concepts of "Dissimilarity between documents" and "Distance measures". The concepts learned in this course allows one to verify the credibility of information from one source, using a credible source as the reference.
+                                </p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>Learn the fundamental steps involved in exploratory Text Analytics by comparing two documents and finding out their various distance measures. Learn to classify a document of reviews based on sentiment.</p>
+                            </div>
+                            
+                            <h1 class="title">Concepts and application of objective and subjective Segmentation</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>This course is designed for the individuals who want to know the art of supervised and unsupervised segmentation. This course necessarily assumes that the audience has a fair understanding of data management.
+
+                                The course starts where the analyst has well understanding about the objective of the project and has a reasonably well defined, cleaned, treated data. From there it guides the audience on how to build and evaluate segmentats, both subjective and objective.
+
+                                It covers all major segmentation techniques like hierarchical clustering, k-means clustering (under unsupervised segmentation) and decision trees & Naive Bayesian classification rules (under supervised segmentation) through its highly enriched business simulations. </p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>After completing the course you will be able to build customer segmentation using techniques, which are prevalently used in the industry.
+                                </p>
+                            </div>
+                            
+                            <h1 class="title">Predictive modelling using Logistic Regression</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Analyttica TreasureHunt presents a bouquet of courses designed for the individuals who want to know the art of predictive modeling. These courses necessarily assume that the audience has a fair understanding of data management. The course starts with the premise that the learner understands the objective of a project and has a reasonably well defined, cleansed and treated data. From there, the course guides the learner on how to build, evaluate and validate predictive models. The current course covers logistic regression, one of the most frequently used techniques in the world of analytics. The course not only teaches one how to build a logistic regression, it also takes the learner through different techniques to evaluate and validate a regression model through its highly enriched business simulations.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>After completing the course, one will be able to build logistic regression models, which are widely applied in the analytics space across all industry verticals.</p>
+                                
+                            </div>
+                            <h1 class="title">Predictive modelling using Linear Regression</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>This course is designed to guide a learner through the various stages of a predictive modelling framework. The predictive modelling technique covered in this course is that of Linear Regression, the most fundamental form of regression, and a very common and widely used predictive technique in the field of analytics. To build, evaluate and validate a predictive model involves a number concepts and techniques one must be acquainted with.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>Structured in several modules covering a couple of business cases, the learner is given a hands-on exposure to the various concepts involved in building a Linear Regression predictive model, broadly covered under the following sections:</p>
+                                
+                                <ul style="text-align: left; list-style-type: disc; margin-left: 20px">
+                                    <li>Simple and Multiple Linear Regression</li>
+                                    <li>Evaluating a Linear Model</li>
+                                    <li>Variable Transformations, Selection and Over-fitting</li>
+                                    <li>Model Validation</li>     
+                                </ul>
+                            </div>
+                            
+                            <h1 class="title">Text Analytics - Classification and Clustering</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Text classification and clustering form an integral part of analysing text data. In most business scenarios, it is important to analyse the text as a whole and as part of certain subgroups, which might not be apparent from simple frequency analysis. This is where clustering becomes necessary. Text Clustering helps one identify the underlying themes in text data, while also suggesting the number of themes that might be present in the data</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>This course is designed to equip a learner with all the necessary concepts and skills required to cluster and classify text data, while also validating if the model is a good fit using training-validation sets.
+                                </p>
+                            </div>
+                            
+                            <h1 class="title">Fundamentals of Time Series Analysis</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>Analyttica TreasureHunt presents a bouquet of courses designed for individuals who want to learn the art of analysing time series data. This course, the first one in the series, introduces the learner to the concept of time series data and basic analysis with this data. The techniques discussed in this course are the building blocks of time series analysis and makes an individual ready for further exploration of various high end techniques of time series forecasting.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>Structured in 3 modules and 6 real life business cases, the learner is given a hands-on exposure to various basic analysis ranging from visualisation using time series plots and smoothing, to analysing seasonal components and removing trends. The course also introduces the concept of auto-correlation function and partial auto-correlation function, a major tool for time series forecasting.</p>
+                            </div>
+                                
+                                <h1 class="title">Application of Analytics for Customer Acquisition in Banking and Financial services analysis</h1>
+                                <div>
+                                    <h3 class="title">Description</h3>
+                                    <p>Customer acquisition plays a very important role in an organisation's growth story. Key to a successful acquisition strategy is the ability to find the right customers from a pool of prospects, reach out to them through the right channel and offer the right product. It is of utmost importance to make use of the available data resources to generate insights which can help build a successful acquisition strategy.</p>
+                                    
+                                    <h3 class="title">Learning Objective</h3>
+                                    <p>This course will help you understand about the Acquisition management function from a Banking and Financial services standpoint. It is designed such that it covers both theoretical and practical aspects of analytical applications to Acquisition management.</p>            
+                                </div>    
+                            
+                            <h1 class="title">Application of Analytics for Customer Engagement in Banking and Financial Services</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>This course helps in understanding the essence of customer engagement and its importance for any business. It further discusses the 2 primary goals to be achieved while improving customer engagement.  It examines the role of data analytics in strengthening the different components of a customer engagement strategy. The course also gives an overview of different components of the customer life-cycle.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>By enrolling into this course you will appreciate the significance of customer engagement and the 3 simulations covered in the course will help you attain the skill sets to apply data analytics to manage customer engagement. The course content and simulations are carefully designed by industry practitioners and experienced data scientists and mimics on the job experiences of application of data analytics through real world business cases.</p>
+                            </div>
+                            
+                            <h1 class="title">Application of Analytics for Customer Retention in Banking and Financial Services</h1>
+                            <div>
+                                <h3 class="title">Description</h3>
+                                <p>This course helps in understanding the customer retention management function and its importance for any business. It discusses different types of customer churn and different ways to retain a customer. It also discusses about the 3 different streams of analytics helpful in solving problems linked to retention.</p>
+                                
+                                <h3 class="title">Learning Objective</h3>
+                                <p>By enrolling into this course you will appreciate the significance of customer retention. The 3 simulations covered in the course will help you attain the skill sets to apply data analytics to manage customer retention and reduce customer attrition. The course content and simulations are carefully designed by industry practitioners and experienced data scientists and mimics on the job experiences of application of data analytics through real world business cases.</p>
+                            </div>
+                            
+                            
+                            
+                            
+                        </div>
+                        
+                        <h3 style="float: left">A plenty of upcoming courses will be available soon. Please, be in touch!! </h3>
+                        
+                        <button type="button" id="mod" data-toggle="modal" data-target="#mod1">Register Here</button>
+                        
+                        
+                        
+                        
+                            
+                    </div>
+                        
+                </div> 
+                
+                
+                
+                
+            </center>
+            
+            
+            
+        </div>
+								
+        
+        </div>
+        
+        <div class="modal fade" id="mod1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"> &times;</button>
+                                        <h3 class="modal-title">Registration Form</h3>
+                                    </div>
+                                    
+                                    <div class="modal-body">
+                                        <form name="registration" id="register" onsubmit="return validate()" action="form_send.php" method="post">
+                                            
+                                            <label for="fname">First Name</label>
+                                            <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br />
+
+                                            <label for="lname">Last Name</label>
+                                            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br />
+
+                                            <label for="email">E-mail ID</label>
+                                            <input type="text" id="email" name="emailaddress" placeholder="Your email id.."><br />
+
+                                            <label for="phone">Contact No.</label>
+                                            <input type="text" id="phone" name="contact_no" placeholder="Your contact number.."><br />
+
+                                            <label for="gender">Gender</label>
+                                            <select id="gender" name="gender">
+                                              <option value="male">Male</option>
+                                              <option value="female">Female</option>
+                                              <option value="other">Other</option>
+                                            </select><br />
+
+                                            <label for="profession">Profession</label>
+                                            <select id="profession" name="profession">
+                                              <option value="student">Student</option>
+                                              <option value="employed">Employed</option>
+                                              <option value="self-employed">Self-employed</option>
+                                              <option value="umemployed">Unemployed</option>
+                                            </select>
+                                            
+                                            <label for="msg">Courses/Any queries</label>
+                                            <textarea id="msg" name="msg" placeholder="Write your query here.." style="height:100px"></textarea>
+                                            
+                                            
+
+                                            <input type="submit" name='submit' value="Register">
+                                            
+                                        </form>
+                                                               
+                                    </div>
+
+
+                                </div>
+                            </div>
+        </div>
+        
+        
+        
+        
+       
+        <script type="text/javascript">
+            
+            $("#accordion").accordion();
+            
+
+            function validate()
+            {
+                var a=document.forms["registration"]["firstname"].value;
+                var b=document.forms["registration"]["lastname"].value;
+                var c=document.forms["registration"]["emailaddress"].value;
+                var d=document.forms["registration"]["contact_no"].value;
+                var e=document.forms["registration"]["msg"].value;
+                
+                if(a=="" || b==""|| c==""|| d==""|| e=="")
+                    {
+                        alert("Please fill all the Input fields!!");
+                        return false;
+                    }
+            }
+            
+            $("#register").submit(function(event){
+                
+                function isEmail(email) {
+                var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                return regex.test(email);
+                }
+                
+                if($("#email").val()!="")
+                {
+                    if(!isEmail($("#email").val()))
+                    {
+                        alert("Enter a valid Email-Id");
+                        event.preventDefault();
+                    }
+                }
+                
+            
+            if($("#phone").val()!="")
+                    {
+                        
+                        if(!$.isNumeric($("#phone").val()))
+                            {
+                                alert("Enter a valid Contact Number");
+                                event.preventDefault();
+                            }
+                    }
+                
+            });
+            
+            
+            
+        </script>
+        
+        
+
+	
+        
+	<footer id="footer" style="width: 100%;">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_left">
+				<!--=========== Designed By 6th sense Team ================-->
+               <p>Copyright &copy; 2018 | Skaipal Consulting Pvt. Ltd. All Rights Reserved</p>
+			   <!--=========== Designed By 6th Sense Team ================-->
+             </div>
+           </div>
+		   <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_right">
+               <ul class="social_nav">
+                 <li><a href="https://www.facebook.com/Skaipal2017/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="https://twitter.com/SkaipalC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="https://in.linkedin.com/company/skaipalconsultancy" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               </ul>
+             </div>
+           </div>
+        </div>
+       </div>
+      </footer>
+      <!--=========== END FOOTER ================-->
+        
+        
+
+     <!-- Javascript Files
+     ================================================== -->
+  
+     <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Google map -->
+    <script src="js/jquery.ui.map.js"></script>
+     <!-- For smooth animatin  -->
+    <script src="js/wow.min.js"></script>   <!-- superslides slider -->
+    <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>    
+    <!-- for circle counter -->
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <!-- for portfolio filter gallery -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/elastic_grid.min.js"></script>
+    <script src="js/portfolio_slider.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/custom.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+  
+  </body>
+</html>

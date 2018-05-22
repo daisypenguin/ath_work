@@ -1,0 +1,16 @@
+CREATE TABLE reg (
+  id INT(255) NOT NULL AUTO_INCREMENT,
+  fname VARCHAR(50) NOT NULL,
+  lname VARCHAR(80) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  phone VARCHAR(10) NOT NULL,
+  gender enum('male','female','other') NOT NULL,
+  profession enum('student','employed','self-employed','unemployed') NOT NULL,
+  msg TEXT NOT NULL,
+  PRIMARY KEY(id)
+) ENGINE = InnoDB;
+
+
+$servername = "localhost";
+$username = "skaipal_admin";
+$password = "admin123";
