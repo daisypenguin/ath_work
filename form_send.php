@@ -39,7 +39,7 @@ $stmt = $pdo->prepare('INSERT INTO reg
 			':prof' => $prof,
 			':msg' => $message));
 
-$email_from = 'skaipal.in';//<== update the email address
+$email_from = 'sarojnayak@skaipal.in';//<== update the email address
 $email_subject = "New Form submission";
 $email_body = "You have received a new message regarding course registration from $fname $lname.\n".
 	"E-mail id: $visitor_email \n".
